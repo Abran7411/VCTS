@@ -1,0 +1,33 @@
+{
+    "expo": {
+        "name": "Tracking-App",
+        "slug": "Tracking-App",
+        "version": "1.0.0",
+        "orientation": "default",
+        "icon": "./assets/icons.png",
+        "splash": {
+            "image": "./assets/VCTS-logos_transparent.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/VCTS-logos_transparent.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.rennie_ab74.TrackingApp"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
